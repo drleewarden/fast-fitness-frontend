@@ -28,7 +28,7 @@ export const Exercise =(props)=> {
                 <CardImg
                   top={true}
                   style={{ height: 250 }}
-                  src={`http://localhost:1337${exercise.image[0].url}`}
+                  src={`https://fast-fitness-app.herokuapp.com${exercise.image[0].url}`}
                 />
 
                 <CardBody style={{border: '1px solid grey'}}>

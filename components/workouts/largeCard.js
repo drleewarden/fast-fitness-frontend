@@ -15,7 +15,7 @@ export const LargeCard =(props)=> {
             left: 0,
             zIndex:-1
           }}
-          src={`http://localhost:1337${exercise.image[0].url}`}
+          src={`https://fast-fitness-app.herokuapp.com${exercise.image[0].url}`}
         />
 
           <div style={{

@@ -44,7 +44,7 @@ const RestaurantList = (
                 <CardImg
                   top={true}
                   style={{ height: 250 }}
-                  src={`http://localhost:1337${res.image.url}`}
+                  src={`https://roulette-fitness.herokuapp.com/${res.image.url}`}
                 />
                 <CardBody>
                   {/* <Title>dsfadfd</Title> */}
